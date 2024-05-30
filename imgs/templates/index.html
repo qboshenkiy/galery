@@ -1,0 +1,116 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/style.css/' %}" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav-box">
+        <img
+          alt="Instagram"
+          fetchpriority="high"
+          src="https://static.wixstatic.com/media/d7ffe259c9e54f59837481b3dd0130eb.png/v1/fill/w_24,h_24,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d7ffe259c9e54f59837481b3dd0130eb.png"
+          style="width: 24px; height: 24px; object-fit: cover"
+        />
+        <img
+          alt="Facebook"
+          fetchpriority="high"
+          src="https://static.wixstatic.com/media/d3470ec8ca26475da4b228f0199b5d3d.png/v1/fill/w_24,h_24,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d3470ec8ca26475da4b228f0199b5d3d.png"
+          style="width: 24px; height: 24px; object-fit: cover"
+        />
+        <img
+          alt="Twitter"
+          fetchpriority="high"
+          src="https://static.wixstatic.com/media/7177d158c36d432b93f51e54f80e2f3c.png/v1/fill/w_24,h_24,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/7177d158c36d432b93f51e54f80e2f3c.png"
+          style="width: 24px; height: 24px; object-fit: cover"
+        />
+        <img
+          alt="imdb"
+          fetchpriority="high"
+          src="https://static.wixstatic.com/media/5eae16_b6d6d475ec784822b408df28f33d8645~mv2.png/v1/fill/w_24,h_24,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/5eae16_b6d6d475ec784822b408df28f33d8645~mv2.png"
+          style="width: 24px; height: 24px; object-fit: cover"
+        />
+      </div>
+      <ul class="nav-ul">
+        <li class="nav-li"><a href="#own" class="nav-a own">Ana Sayfa</a></li>
+        <li class="nav-li"><a href="#bio" class="nav-a">Biyografi</a></li>
+        <li class="nav-li"><a href="#galery" class="nav-a">Galeri</a></li>
+        <li class="nav-li"><a href="#footer" class="nav-a">iletişim</a></li>
+      </ul>
+    </nav>
+    <div class="parallax" id="own" style="background-image: url('{% static 'image/image.png' %}');">
+      <h1 class="title-head">
+        neslihan<br />
+        atagül<br />
+        doğulu
+      </h1>
+    </div>
+    <div class="box">
+      <div class="frame">
+        <p class="absolute-title">biyografi</p>
+        <img
+          src="https://static.wixstatic.com/media/5eae16_4b6c768fda4e453a9cc7c5a4ffb04446~mv2.png/v1/crop/x_267,y_35,w_2695,h_2933/fill/w_690,h_749,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/crop%252520fin%2525202_edited_edited.png"
+          alt="Image"
+        />
+      </div>
+      <div class="box-text" id="bio">
+        <p class="text-bio">
+          20 Ağustos 1992’de İstanbul’da doğdu. Yeditepe Üniversitesi Tiyatro
+          Bölümü’nde okuyan Neslihan Atagül Doğulu, 2006 yılında “Yaprak Dökümü”
+          dizisiyle oyunculuk kariyerine ilk adımını attı. Aynı yıl ilk uzun
+          metrajlı filmi olan “İlk Aşk”ta Vahide Gördüm ve Çetin Tekindor ile
+          birlikte oynadı. Bu filmdeki rolü ile Altın Koza Film Festivali’nde
+          ‘Umut Veren Genç Kadın Oyuncu Ödülü’nü aldı. 2011 yılında “Hayat Devam
+          Ediyor” dizisi ile oyunculuğa devam etti. 2012 yılında Yeşim
+          Ustaoğlu'nun yazıp yönettiği, başrollerini Özcan Deniz ile paylaştığı
+          "Araf" filmiyle, 45. Sinema Yazarları Derneği Ödülleri ‘Cahide Sonku
+          En İyi Kadın Oyuncu Ödülü’, 25. Tokyo Uluslararası Film Festivali ‘En
+          İyi Kadın Oyuncu Ödülü’, Altın Koza Film Festivali ‘Türkân Şoray Umut
+          Veren Genç Kadın Oyuncu Ödülü’, Moskova 2Morrow Film Festivali
+          ‘Şimdinin ve Geleceğin En İyi Oyuncusu Ödülü’nü aldı. 2013 yılında
+          Peyami Safa’nın aynı adlı romanından uyarlanan, başrollerini Kadir
+          Doğulu ile paylaştığı "Fatih Harbiye” dizisinin 2014 yılında final
+          yapmasının ardından Burak Özçivit ile başrolü paylaştığı "Kara Sevda"
+          dizisi ile 2015-2017 yılları arasında Star TV ekranlarında yer aldı.
+          Neslihan Atagül Doğulu, Puhu TV’de yayınlanan “Dip" dizisinde Bilge
+          karakterine başarıyla hayat vermesinin ardından, 2019 yılı itibariyle
+          "Sefirin Kızı " dizisiyle Star TV’de yeniden izleyicisiyle buluştu.
+          2020 yılında başladığı, sınır tanımayanların hikayelerine ışık tutan
+          'hadsiz' isimli online dergi çalışmalarını halen sürdürmektedir.
+        </p>
+        <button class="btn">Ödüller</button>
+      </div>
+    </div>
+    <div class="parallax2" style="background-image: url('{% static 'image/image copy.png' %}');">
+    </div>
+    {% if image %}
+    <div class="parallax3" style="background-image: url('{% static 'image/image copy 2.png' %}');">
+        <div class="title-container galery">
+            <h1 class="title-content">Galeri</h1>
+        </div>
+        <div class="box-galery" id="galery">
+            {% for image_item in image %}
+          <img src="{{ image_item.image.url }}" alt="" width="342">
+          {% endfor %}
+        </div>
+    </div>
+    <div class="parallax3" style="background-image: url('{% static 'image/image copy 2.png' %}');"></div>
+    {% endif %}
+  </body>
+  <footer>
+    <div class="title-container">
+        <h1 class="title-content">iletişim</h1>
+    </div>
+    <form action="{% url 'send_feedback_email' %}" id="footer">
+      {% csrf_token %}
+        <input type="text" name="ad"  placeholder="Ad - Soyar">
+        <input type="email" name="email"  placeholder="Email">
+        <input type="text" name="msg"  placeholder="message" class="message">
+        <button type="submit"  class="btn2">Gönder</button>
+    </form>
+  </footer>
+</html>
